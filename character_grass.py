@@ -6,7 +6,7 @@ open_canvas()
 grass = load_image('grass.png')
 character = load_image('character.png')
 
-while():
+while(1):
     x = 390
 
     while (x < 780):
