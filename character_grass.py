@@ -60,7 +60,7 @@ while(1):
 
     r=0
     while (r<270):
-       clear_canvas_now()
+        clear_canvas_now()
         grass.draw_now(400,30)
         character.draw_now(300 * math.cos(r/360*2*math.pi) + x, 300 * math.sin(r/360*2*math.pi) + 300 + y)
         r = r + 2
